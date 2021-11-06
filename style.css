@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.header-img {
+  height: 900px;
+  width: 100%;
+  background-image: url(img/antique.jpg);
+}
+
+.top {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 100px;
+  height: 50px;
+}
+
+.header-h3 {
+  margin: 60px 0 30px 0;
+}
+
+.header-text {
+  margin-bottom: 40px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+.main-photo1 {
+  background-image: url(img/catalog.jpg);
+  width: 45%;
+}
+
+.main-photo2 {
+  background-image: url(img/fashion.jpg);
+  width: 45%;
+}
+
+.photo1-text {
+  display: inline-block;
+  margin: 170px 0 80px 0;
+  background-color: rgb(194, 190, 190);
+  padding: 20px;
+  color: aliceblue;
+}
+
+.photo2-text {
+  display: inline-block;
+  margin: 170px 0 80px 0;
+  background-color: rgb(194, 190, 190);
+  padding: 20px;
+  color: aliceblue;
+}
+
+section {
+  background-image: url(img/magazine-archive.jpg);
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+section h4 {
+  padding: 40px 0 20px 0;
+}
+
+section p {
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+section a {
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 30px;
+}
+
+main {
+  background-color: rgb(199, 195, 195);
+}
+
+.main-content {
+  margin: 80px 0;
+}
+
+.main-content-item1 {
+  display: flex;
+}
+
+.main-img1 {
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+}
+
+main .main-text h3 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+main .main-text p {
+  margin: 15px 35px;
+}
+
+.main-img-box {
+  text-align: center;
+}
+
+main a {
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 30px;
+}
+
+.footer-sub {
+  color: aliceblue;
+  background-color: rgb(51, 50, 50);
+  display: flex;
+}
+
+.footer-sub-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0;
+}
+
+.footer-sub-img {
+  text-align: center;
+  margin: 30px;
+}
+
+.footer-sub img {
+  height: 50px;
+  width: 100px;
+}
+
+.footer-sub-text2 {
+  width: 30%;
+}
+
+.footer-sub h3 {
+  margin-bottom: 20px;
+}
+
+.footer-sub li,
+p {
+  font-size: 12px;
+}
+
+footer {
+  height: 80px;
+  text-align: center;
+  padding: 30px 0;
+}
